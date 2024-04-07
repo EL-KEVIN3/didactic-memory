@@ -1,0 +1,145 @@
+header{
+    background:#545e75 ;
+    color: #f5f3f5;
+    padding: 20px ;
+    text-align: center;
+  }
+  
+  nav ul{
+    background-color: #549f93;
+  list-style-type: none;
+  width: 95%;
+  text-align: center;
+  
+  }
+  
+  nav li{
+    display: inline-flex;
+  }
+  
+  nav a{
+    color: #f5f3f5;
+    text-decoration: none;
+    padding: 10px;
+    width: 170px;
+  }
+   nav a:hover{
+    color: #d5b942;
+   }
+  
+  header h1{
+    font-family: "Caveat", cursive;
+  }
+  
+  header nav{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  main{
+    font-family: Shadows Into Light;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .lista-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .productos{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+  }
+  
+  .productos:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  }
+  
+  .productos img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: tranform 0.6 ease-in-out;
+  margin: 0 auto 10px;
+  }
+  
+  .productos:hover img {
+    transform: scale(1.1);
+  
+  }
+  
+  .productos button{
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background color 0.3s ease-in-out;
+  }
+  
+  .productos button:hover{
+    background-color: #549f93;
+  }
+  
+  footer{
+    background-color:#549f93;
+    color:#f5f3f5;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap:  wrap;
+  font-family: "Caveat", cursive;
+  
+  }
+  
+  .links-informativos{
+    width: 400px;
+     font-family: "Caveat", cursive;
+  font-size: 24px;
+  }
+  
+  .links-informativos ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-informativos li a {
+  text-decoration: none;
+  color: #f5f3f5;
+  }
+   
+  .redes-sociales{
+    width: 400px;
+  }
+  
+  .redes-sociales img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .redes-sociales li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .redes-sociales img:hover{
+    transform: scale(1.1);
+  }
+  
+  .info-contacto{
+    width: 200px;
+     font-family: "Caveat", cursive;
+  font-size: 24px;
+  }
